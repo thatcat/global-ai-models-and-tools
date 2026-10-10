@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>global-ai-models-and-tools</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero__inner">
+        <div class="hero__copy">
+          <p class="eyebrow" id="eyebrow"></p>
+          <h1 id="title"></h1>
+          <p class="lead" id="tagline"></p>
+          <p class="note" id="scope-note"></p>
+        </div>
+        <div class="toolbar" aria-label="Language switcher">
+          <button class="lang-button is-active" data-lang="en">EN</button>
+          <button class="lang-button" data-lang="zh">中文</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="summary">
+        <div class="summary__inner">
+          <div class="summary__stats" id="stats"></div>
+        </div>
+      </section>
+
+      <section class="catalog" id="catalog"></section>
+    </main>
+
+    <script src="./catalog.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

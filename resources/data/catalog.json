@@ -1,0 +1,1944 @@
+{
+  "meta": {
+    "projectName": "global-ai-models-and-tools",
+    "tagline_en": "A bilingual catalog of global AI models and tools, organized to show that technology belongs to everyone.",
+    "tagline_zh": "一个中英双语的全球 AI 模型与工具目录，用开放整理的方式体现技术无国界。",
+    "defaultLanguage": "en",
+    "updatedAt": "2026-10-05",
+    "scopeNote_en": "A community-maintained snapshot of mainstream AI models and tools from around the world. Entries are curated for discoverability and can be improved through pull requests.",
+    "scopeNote_zh": "一个由社区共同维护的全球主流 AI 模型与工具目录。条目以方便发现为目标，并欢迎通过 Pull Request 持续改进。"
+  },
+  "categories": {
+    "text": {
+      "title_en": "Text",
+      "title_zh": "文本",
+      "models": [
+        {
+          "name": "GPT-6 Astra",
+          "name_zh": "GPT-6 Astra",
+          "url": "https://openai.com/index/gpt-6-astra/",
+          "summary_en": "OpenAI flagship model for demanding reasoning, coding, computer use, science, and professional work.",
+          "summary_zh": "OpenAI 最聪明的旗舰模型，不只回答问题，还能推理难题、写代码、操作电脑，推进科研与复杂工作。"
+        },
+        {
+          "name": "GPT-6.1 Sol",
+          "name_zh": "GPT-6.1 Sol",
+          "url": "https://developers.openai.com/api/docs/models",
+          "summary_en": "Balanced GPT-6 model offering near-Astra performance for complex work at lower cost.",
+          "summary_zh": "性能接近 Astra、同时更注重成本效率的 GPT-6 平衡型模型。"
+        },
+        {
+          "name": "GPT-6 Luna",
+          "name_zh": "GPT-6 Luna",
+          "url": "https://developers.openai.com/api/docs/models",
+          "summary_en": "Fast and cost-efficient GPT-6 model for focused, high-volume workloads.",
+          "summary_zh": "面向高并发、明确任务的快速高性价比 GPT-6 模型。"
+        },
+        {
+          "name": "Claude Opus 5.5",
+          "name_zh": "Claude Opus 5.5",
+          "url": "https://www.anthropic.com/claude-opus-5-5",
+          "summary_en": "Anthropic flagship model for complex coding, agents, and professional work at improved efficiency.",
+          "summary_zh": "Anthropic 面向复杂编程、智能体和专业工作的旗舰模型，效率进一步提升。",
+          "related": [
+            {
+              "category": "text",
+              "bucket": "models",
+              "name": "Claude Fable 5.1"
+            },
+            {
+              "category": "text",
+              "bucket": "models",
+              "name": "Claude Mythos 5.1"
+            },
+            {
+              "category": "code",
+              "bucket": "tools",
+              "name": "Claude Code"
+            }
+          ]
+        },
+        {
+          "name": "Claude Sonnet 5.5",
+          "name_zh": "Claude Sonnet 5.5",
+          "url": "https://www.anthropic.com/claude-sonnet-5-5",
+          "summary_en": "Fast Claude 5.5 model for coding, agents, documents, slides, and high-volume work.",
+          "summary_zh": "快速型 Claude 5.5 模型，适合编程、智能体、文档、幻灯片与高频工作。"
+        },
+        {
+          "name": "Claude Haiku 4.5",
+          "name_zh": "Claude Haiku 4.5",
+          "url": "https://platform.claude.com/docs/en/models/haiku-4-5/overview",
+          "summary_en": "Anthropic's fastest Claude model for responsive coding, agents, and high-volume work.",
+          "summary_zh": "Anthropic 速度最快的 Claude 模型，适合响应式编程、智能体和高吞吐工作。",
+          "scope_en": "Model",
+          "scope_zh": "模型"
+        },
+        {
+          "name": "Claude Fable 5.1",
+          "name_zh": "Claude Fable 5.1",
+          "url": "https://www.anthropic.com/claude/fable",
+          "summary_en": "Anthropic frontier model for demanding coding, knowledge work, and research workflows.",
+          "summary_zh": "Anthropic 能力最强的模型，擅长跨整个代码库开发功能、审查代码和优化性能，还能连续几天推进复杂项目；也适合知识工作与研究。"
+        },
+        {
+          "name": "Claude Mythos 5.1",
+          "name_zh": "Claude Mythos 5.1",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+          "summary_en": "The same underlying model as Claude Fable 5.1, with fewer safeguards for vetted cybersecurity and life-science research programs.",
+          "summary_zh": "与 Claude Fable 5.1 使用相同底层模型，但在经过审核的网络安全和生命科学研究计划中采用更少的安全限制。"
+        },
+        {
+          "name": "Gemini 3.8 Flash",
+          "name_zh": "Gemini 3.8 Flash",
+          "url": "https://deepmind.google/models/model-cards/",
+          "summary_en": "Stable high-speed Gemini model for long-horizon software engineering, agents, and multimodal tasks.",
+          "summary_zh": "速度快的稳定版 Gemini 模型，能持续推进软件开发，也能处理图文音视频和多步骤任务。",
+          "related": [
+            {
+              "category": "text",
+              "bucket": "models",
+              "name": "Gemini 3.1 Pro"
+            },
+            {
+              "category": "video",
+              "bucket": "models",
+              "name": "Veo 3.1"
+            },
+            {
+              "category": "code",
+              "bucket": "tools",
+              "name": "Gemini CLI"
+            },
+            {
+              "category": "office",
+              "bucket": "tools",
+              "name": "Gemini for Google Workspace"
+            },
+            {
+              "category": "infra",
+              "bucket": "tools",
+              "name": "Gemini API"
+            }
+          ]
+        },
+        {
+          "name": "Gemini 3.1 Pro",
+          "name_zh": "Gemini 3.1 Pro",
+          "url": "https://deepmind.google/models/model-cards/",
+          "summary_en": "Google Pro model for advanced reasoning, complex problem solving, and multimodal work.",
+          "summary_zh": "Google 面向高级推理、复杂问题解决与多模态工作的 Pro 模型。",
+          "related": [
+            {
+              "category": "text",
+              "bucket": "models",
+              "name": "Gemini 3.8 Flash"
+            },
+            {
+              "category": "infra",
+              "bucket": "tools",
+              "name": "Gemini API"
+            }
+          ]
+        },
+        {
+          "name": "Gemma 4",
+          "name_zh": "Gemma 4",
+          "url": "https://deepmind.google/models/model-cards/",
+          "summary_en": "Lightweight open model family designed for adaptable and efficient deployment.",
+          "summary_zh": "面向灵活适配与高效部署的轻量开源模型家族。",
+          "access_en": "Open weights; license varies by model.",
+          "access_zh": "模型权重可下载；不等同于开源，具体许可证因模型而异。"
+        },
+        {
+          "name": "Grok 4.7",
+          "name_zh": "Grok 4.7",
+          "url": "https://docs.x.ai/developers/grok-4-7",
+          "summary_en": "xAI’s current frontier model for coding, agentic tasks, knowledge work, and configurable reasoning.",
+          "summary_zh": "xAI 当前的前沿模型，适合编程、智能体任务、知识工作与可配置推理。"
+        },
+        {
+          "name": "Llama 4 Maverick",
+          "name_zh": "Llama 4 Maverick",
+          "url": "https://ai.meta.com/resources/models-and-libraries/llama-downloads/",
+          "summary_en": "Meta’s multimodal Llama 4 model for strong visual intelligence and fast responses at scale.",
+          "summary_zh": "Meta 的多模态 Llama 4 模型，兼顾视觉智能、快速响应与规模化部署。",
+          "access_en": "Open weights; Llama Community License.",
+          "access_zh": "模型权重可下载；适用 Llama 社区许可证，并不等同于开源。"
+        },
+        {
+          "name": "Doubao-Seed-2.0-Pro",
+          "name_zh": "豆包大模型 2.0 Pro",
+          "url": "https://developer.volcengine.com/articles/7610285824933445675",
+          "summary_en": "ByteDance’s flagship Doubao model for deep reasoning, agents, multimodal understanding, and complex tasks.",
+          "summary_zh": "字节跳动的豆包旗舰模型，适合深度推理、智能体、多模态理解与复杂任务。",
+          "related": [
+            {
+              "category": "text",
+              "bucket": "tools",
+              "name": "Doubao"
+            }
+          ]
+        },
+        {
+          "name": "Qwen3.7-Max",
+          "name_zh": "Qwen3.7-Max",
+          "url": "https://qwen.ai/blog?id=qwen3.7&locale=en",
+          "summary_en": "Alibaba’s agent-era model for long-horizon coding, office automation, and autonomous tool use.",
+          "summary_zh": "阿里面向智能体的模型，能持续写代码、自动处理办公任务，并自主调用工具。",
+          "related": [
+            {
+              "category": "code",
+              "bucket": "models",
+              "name": "Qwen3-Coder-Next"
+            }
+          ]
+        },
+        {
+          "name": "DeepSeek-V4.1-Flash",
+          "name_zh": "DeepSeek-V4.1-Flash",
+          "url": "https://www.deepseek.com/en/news/",
+          "summary_en": "DeepSeek’s current efficient model with native visual understanding, stronger agents, and high-throughput inference.",
+          "summary_zh": "DeepSeek 当前的高效模型，具备原生视觉理解、更强智能体能力与高吞吐推理。",
+          "related": [
+            {
+              "category": "infra",
+              "bucket": "tools",
+              "name": "DeepSeek API"
+            }
+          ]
+        },
+        {
+          "name": "Kimi K2.7",
+          "name_zh": "Kimi K2.7",
+          "url": "https://www.kimi.ai/ai-models/",
+          "summary_en": "Moonshot agentic model family for long-context research, tool use, and autonomous workflows.",
+          "summary_zh": "月之暗面面向长文本研究、工具调用与自主工作流的智能体模型。"
+        },
+        {
+          "name": "GLM-5.3",
+          "name_zh": "GLM-5.3",
+          "url": "https://z.ai/company",
+          "summary_en": "Z.ai flagship text model for reasoning, coding, and agentic tool use.",
+          "summary_zh": "智谱 Z.ai 面向推理、编程与智能体工具调用的旗舰文本模型。"
+        },
+        {
+          "name": "MiMo-V2.6-Pro",
+          "name_zh": "小米 MiMo-V2.6-Pro",
+          "url": "https://mimo.mi.com/models/en-US/mimo-v2.6-pro",
+          "summary_en": "Xiaomi's open-source flagship with a 1M-token context window and native text, image, video and audio understanding. Designed for long-running coding, computer-use and research tasks.",
+          "summary_zh": "小米开源旗舰，一次能处理百万 token，直接理解文字、图片、视频与音频；擅长持续写代码、操作电脑和做研究。",
+          "access_en": "MIT-licensed model weights; hosted API usage is billed separately.",
+          "access_zh": "模型权重按 MIT 许可开源；使用在线 API 需要另外付费。",
+          "notice_en": "The AA ranking refers to Xiaomi's 2026-09-22 release report, not a permanent or universal ranking: https://mimo.mi.com/docs/en-US/news/latest/v2-6 . Open-source release: https://huggingface.co/collections/XiaomiMiMo/mimo-v26 . Checked on 2026-10-10.",
+          "notice_zh": "AA 排名引用小米 2026-09-22 发布说明，不代表永久排名或所有任务最优：https://mimo.mi.com/docs/zh-CN/news/latest/v2-6 。开源资源：https://huggingface.co/collections/XiaomiMiMo/mimo-v26 。核实日期：2026-10-10。"
+        },
+        {
+          "name": "Mistral Large 4",
+          "name_zh": "Mistral Large 4",
+          "url": "https://docs.mistral.ai/resources/changelogs",
+          "summary_en": "Mistral’s current general-purpose multimodal flagship with a 1M-token context window.",
+          "summary_zh": "Mistral 当前的通用多模态旗舰模型，支持 100 万 token 上下文。",
+          "related": [
+            {
+              "category": "text",
+              "bucket": "tools",
+              "name": "Mistral Le Chat"
+            }
+          ]
+        },
+        {
+          "name": "Command A",
+          "name_zh": "Command A",
+          "url": "https://cohere.com/command",
+          "summary_en": "An enterprise language model family designed for retrieval, tool use, and multilingual business workflows.",
+          "summary_zh": "面向检索、工具调用和多语言企业工作流的语言模型家族。"
+        }
+      ],
+      "tools": [
+        {
+          "name": "ChatGPT",
+          "name_zh": "ChatGPT",
+          "url": "https://chatgpt.com/",
+          "summary_en": "A widely used AI assistant for chat, drafting, summarization, and general-purpose work.",
+          "summary_zh": "广泛使用的 AI 助手，适合对话、写作、总结和通用工作。",
+          "group_en": "Conversational Assistants",
+          "group_zh": "对话式助手"
+        },
+        {
+          "name": "Claude",
+          "name_zh": "Claude",
+          "url": "https://claude.ai/",
+          "summary_en": "Anthropic assistant for writing, research, analysis, and long-running knowledge work.",
+          "summary_zh": "Anthropic AI 助手，适合写作、研究、分析与长时知识工作。",
+          "group_en": "Conversational Assistants",
+          "group_zh": "对话式助手"
+        },
+        {
+          "name": "Gemini",
+          "name_zh": "Gemini",
+          "url": "https://gemini.google.com/",
+          "summary_en": "Google personal AI assistant for multimodal conversations, research, and creation.",
+          "summary_zh": "Google 个人 AI 助手，支持多模态对话、研究与创作。",
+          "group_en": "Conversational Assistants",
+          "group_zh": "对话式助手",
+          "related": [
+            {
+              "category": "text",
+              "bucket": "models",
+              "name": "Gemini 3.8 Flash"
+            },
+            {
+              "category": "office",
+              "bucket": "tools",
+              "name": "Gemini for Google Workspace"
+            },
+            {
+              "category": "code",
+              "bucket": "tools",
+              "name": "Gemini CLI"
+            }
+          ]
+        },
+        {
+          "name": "Grok",
+          "name_zh": "Grok",
+          "url": "https://grok.com/",
+          "summary_en": "xAI assistant for real-time answers, reasoning, voice, and agentic tasks.",
+          "summary_zh": "xAI 的 AI 助手，强调实时问答、推理、语音与智能体任务。",
+          "group_en": "Conversational Assistants",
+          "group_zh": "对话式助手"
+        },
+        {
+          "name": "Microsoft Copilot",
+          "name_zh": "Microsoft Copilot",
+          "url": "https://copilot.microsoft.com/",
+          "summary_en": "General Microsoft assistant for web search, Windows, and everyday personal tasks.",
+          "summary_zh": "面向网页搜索、Windows 和日常个人任务的微软通用助手。",
+          "group_en": "Conversational Assistants",
+          "group_zh": "对话式助手",
+          "related": [
+            {
+              "category": "office",
+              "bucket": "tools",
+              "name": "Microsoft 365 Copilot"
+            }
+          ]
+        },
+        {
+          "name": "DeepSeek",
+          "name_zh": "DeepSeek",
+          "url": "https://chat.deepseek.com/",
+          "summary_en": "DeepSeek assistant for fast answers, research, reasoning, and coding support.",
+          "summary_zh": "DeepSeek 面向快速问答、研究、推理与编程辅助的 AI 助手。",
+          "group_en": "Conversational Assistants",
+          "group_zh": "对话式助手"
+        },
+        {
+          "name": "Qwen",
+          "name_zh": "通义千问",
+          "url": "https://qwen.ai/",
+          "summary_en": "Qwen assistant for Chinese-native conversation, creation, search, and long-context work.",
+          "summary_zh": "通义千问面向中文对话、创作、搜索和长文本工作的 AI 助手。",
+          "group_en": "Conversational Assistants",
+          "group_zh": "对话式助手"
+        },
+        {
+          "name": "Doubao",
+          "name_zh": "豆包",
+          "url": "https://www.doubao.com/",
+          "summary_en": "ByteDance's assistant for chatting, writing, search, image generation, and lightweight productivity.",
+          "summary_zh": "字节跳动的 AI 助手，支持聊天、写作、搜索、生图和轻量办公。",
+          "group_en": "Conversational Assistants",
+          "group_zh": "对话式助手"
+        },
+        {
+          "name": "Tencent Yuanbao",
+          "name_zh": "腾讯元宝",
+          "url": "https://yuanbao.tencent.com/",
+          "summary_en": "Tencent's assistant experience that mixes deep reasoning, search, and model integrations.",
+          "summary_zh": "腾讯推出的助手产品，结合深度推理、搜索和模型整合能力。",
+          "group_en": "Conversational Assistants",
+          "group_zh": "对话式助手"
+        },
+        {
+          "name": "Kimi",
+          "name_zh": "Kimi",
+          "url": "https://kimi.moonshot.cn/",
+          "summary_en": "Moonshot's assistant known for long-context reading and web-connected research support.",
+          "summary_zh": "Moonshot 推出的智能助手，以超长上下文阅读和联网研究能力见长。",
+          "group_en": "Conversational Assistants",
+          "group_zh": "对话式助手"
+        },
+        {
+          "name": "Z.ai",
+          "name_zh": "Z.ai",
+          "url": "https://z.ai/",
+          "summary_en": "Zhipu AI platform for accessing GLM models, chat, coding, and agent workflows.",
+          "summary_zh": "智谱 AI 平台，提供 GLM 模型、对话、编程与智能体工作流。",
+          "group_en": "Conversational Assistants",
+          "group_zh": "对话式助手"
+        },
+        {
+          "name": "ERNIE Bot",
+          "name_zh": "文心一言",
+          "url": "https://yiyan.baidu.com/",
+          "summary_en": "Baidu's flagship language model and assistant experience for Chinese productivity tasks.",
+          "summary_zh": "百度旗舰语言模型与助手产品，面向中文办公与生产力场景。",
+          "group_en": "Conversational Assistants",
+          "group_zh": "对话式助手",
+          "related": [
+            {
+              "category": "infra",
+              "bucket": "tools",
+              "name": "Qianfan"
+            },
+            {
+              "category": "agent",
+              "bucket": "tools",
+              "name": "Wenxin Agent Platform"
+            }
+          ]
+        },
+        {
+          "name": "Mistral Le Chat",
+          "name_zh": "Mistral Le Chat",
+          "url": "https://chat.mistral.ai/",
+          "summary_en": "Mistral conversational assistant for research, writing, coding, and productivity.",
+          "summary_zh": "Mistral 对话式助手，适合研究、写作、编程与生产力任务。",
+          "group_en": "Conversational Assistants",
+          "group_zh": "对话式助手"
+        },
+        {
+          "name": "Lingguang AI",
+          "name_zh": "灵光AI",
+          "url": "https://www.lingguang.com/",
+          "summary_en": "A full-modality assistant positioned around simplifying complex work for general users.",
+          "summary_zh": "定位全模态通用助手，强调把复杂任务变简单。",
+          "group_en": "Conversational Assistants",
+          "group_zh": "对话式助手"
+        },
+        {
+          "name": "ChatGAI",
+          "name_zh": "ChatGAI",
+          "summary_en": "A domestic all-in-one AI product combining chat, drawing, video, notes, and PPT generation.",
+          "summary_zh": "国内一体化 AI 产品，整合聊天、生图、视频、笔记和 PPT 生成。",
+          "group_en": "Conversational Assistants",
+          "group_zh": "对话式助手"
+        },
+        {
+          "name": "DeepAI",
+          "name_zh": "DeepAI",
+          "url": "https://deepai.org/",
+          "summary_en": "A broad AI platform that spans image generation, video, chatbots, and editing utilities.",
+          "summary_zh": "覆盖图像生成、视频、聊天机器人和编辑工具的综合 AI 平台。",
+          "group_en": "All-in-one AI Platforms",
+          "group_zh": "综合 AI 平台"
+        },
+        {
+          "name": "Wanxing Tianmu AI",
+          "name_zh": "万兴天幕AI",
+          "url": "https://www.tomoviee.cn/",
+          "summary_en": "A creation toolchain designed around text, image, video, audio, and voice generation in one flow.",
+          "summary_zh": "将文本、图像、视频、音频与语音生成串成一条创作链路的工具链。",
+          "group_en": "All-in-one AI Platforms",
+          "group_zh": "综合 AI 平台"
+        },
+        {
+          "name": "Poe",
+          "name_zh": "Poe",
+          "url": "https://poe.com/",
+          "summary_en": "A multi-model hub for trying language, image, video, and voice experiences in one place.",
+          "summary_zh": "一站式多模型聚合入口，可体验语言、图像、视频和语音能力。",
+          "group_en": "Multi-model Hubs",
+          "group_zh": "多模型聚合"
+        },
+        {
+          "name": "Perplexity",
+          "name_zh": "Perplexity",
+          "url": "https://www.perplexity.ai/",
+          "summary_en": "Answer engine that blends conversational search with cited web research.",
+          "summary_zh": "融合对话式搜索与引用式联网研究的答案引擎。",
+          "group_en": "AI Search",
+          "group_zh": "AI 搜索"
+        },
+        {
+          "name": "You.com",
+          "name_zh": "You.com",
+          "url": "https://you.com/",
+          "summary_en": "An AI search and research workspace with multiple answer styles and agents.",
+          "summary_zh": "支持多种回答方式和智能体的 AI 搜索与研究工作台。",
+          "group_en": "AI Search",
+          "group_zh": "AI 搜索"
+        },
+        {
+          "name": "NotebookLM",
+          "name_zh": "NotebookLM",
+          "url": "https://notebooklm.google/",
+          "summary_en": "A source-grounded research notebook that answers questions from your own documents.",
+          "summary_zh": "基于用户资料回答问题的来源驱动型研究笔记本。",
+          "group_en": "Research & Writing",
+          "group_zh": "研究与写作"
+        },
+        {
+          "name": "QuillBot",
+          "name_zh": "QuillBot",
+          "url": "https://quillbot.com/",
+          "summary_en": "A popular writing tool for paraphrasing, rewriting, polishing, and drafting support.",
+          "summary_zh": "流行的写作工具，适合改写、润色、重述和草稿辅助。",
+          "group_en": "Research & Writing",
+          "group_zh": "研究与写作"
+        },
+        {
+          "name": "Paperpal",
+          "name_zh": "Paperpal",
+          "url": "https://paperpal.com/",
+          "summary_en": "Academic writing support for grammar, clarity, translation, and submission readiness.",
+          "summary_zh": "面向学术写作的辅助工具，覆盖语法、表达、翻译和投稿准备。",
+          "group_en": "Research & Writing",
+          "group_zh": "研究与写作"
+        },
+        {
+          "name": "CueMe",
+          "name_zh": "CueMe",
+          "summary_en": "A writing-oriented assistant from Quark designed for longer-form output generation.",
+          "summary_zh": "夸克推出的写作型助手，适合更长篇内容的生成。",
+          "group_en": "Research & Writing",
+          "group_zh": "研究与写作"
+        }
+      ]
+    },
+    "image": {
+      "title_en": "Image",
+      "title_zh": "图像",
+      "models": [
+        {
+          "name": "Nano Banana 2.1",
+          "name_zh": "Nano Banana 2.1",
+          "url": "https://deepmind.google/models/model-cards/nano-banana-2-1/",
+          "summary_en": "Google’s latest Gemini Image model for high-quality generation, editing, and multimodal understanding.",
+          "summary_zh": "Google 最新的 Gemini 图像模型，适合高质量生成、编辑与多模态理解。",
+          "related": [
+            {
+              "category": "infra",
+              "bucket": "tools",
+              "name": "Gemini API"
+            }
+          ]
+        },
+        {
+          "name": "Imagen 4",
+          "name_zh": "Imagen 4",
+          "url": "https://deepmind.google/models/imagen/",
+          "summary_en": "Google’s current text-to-image model for photorealism, rich details, typography, and 2K output.",
+          "summary_zh": "Google 当前的文生图模型，强调写实感、细节、文字排版与 2K 输出。"
+        },
+        {
+          "name": "Hunyuan Image 3.5",
+          "name_zh": "混元图像 3.5",
+          "url": "https://hunyuan.tencent.com/research/hy-image35-preview?langVersion=zh",
+          "summary_en": "Tencent’s image model for Chinese and English text rendering, complex layouts, image editing, and professional creation.",
+          "summary_zh": "腾讯的图像模型，强化中英文文字、复杂版式、图像编辑与专业创作。",
+          "aliases_en": [
+            "Hy Image3.5 Preview"
+          ],
+          "aliases_zh": [
+            "Hy Image3.5 Preview"
+          ],
+          "related": [
+            {
+              "category": "infra",
+              "bucket": "tools",
+              "name": "Tencent Hunyuan API"
+            }
+          ]
+        },
+        {
+          "name": "Qwen-Image-3.0",
+          "name_zh": "Qwen-Image-3.0",
+          "url": "https://qwen.ai/blog?id=qwen-image-3.0",
+          "summary_en": "Image foundation model focused on rich layouts, realistic detail, and multilingual text rendering.",
+          "summary_zh": "专注复杂排版、真实细节与多语言文字渲染的图像基础模型。"
+        },
+        {
+          "name": "FLUX.1 Tools",
+          "name_zh": "FLUX.1 Tools",
+          "url": "https://blackforestlabs.ai/",
+          "summary_en": "A model line focused on higher-control image generation and editing workflows.",
+          "summary_zh": "偏重高控制度图像生成与编辑的模型系列。",
+          "access_en": "Open weights; license varies by model.",
+          "access_zh": "模型权重可下载；不等同于开源，具体许可证因模型而异。"
+        },
+        {
+          "name": "Stable Diffusion 3.5 Large",
+          "name_zh": "Stable Diffusion 3.5 Large",
+          "url": "https://platform.stability.ai/",
+          "summary_en": "A widely used open image model ecosystem for text-to-image and customization workflows.",
+          "summary_zh": "广泛使用的开源图像模型生态，适合文生图和深度自定义工作流。",
+          "access_en": "Open weights; license varies by model.",
+          "access_zh": "模型权重可下载；不等同于开源，具体许可证因模型而异。"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Dreamina",
+          "name_zh": "即梦AI",
+          "summary_en": "A ByteDance visual toolchain covering image generation, editing, and creator-friendly experimentation.",
+          "summary_zh": "字节系视觉创作工具链，覆盖生图、编辑和创作者实验场景。",
+          "related": [
+            {
+              "category": "video",
+              "bucket": "models",
+              "name": "Seedance 2.5"
+            },
+            {
+              "category": "video",
+              "bucket": "tools",
+              "name": "CapCut"
+            }
+          ]
+        },
+        {
+          "name": "Adobe Firefly",
+          "name_zh": "Adobe Firefly",
+          "url": "https://firefly.adobe.com/",
+          "summary_en": "Commercially oriented creative generation for images, styles, and design variations.",
+          "summary_zh": "面向商业创作的图像、风格和设计变体生成工具。"
+        },
+        {
+          "name": "Midjourney",
+          "name_zh": "Midjourney",
+          "url": "https://www.midjourney.com/",
+          "summary_en": "A global image creation platform known for strong aesthetics and community-driven prompting culture.",
+          "summary_zh": "全球知名 AI 绘图平台，以高审美输出和社区提示词文化著称。"
+        },
+        {
+          "name": "Gaoding AI",
+          "name_zh": "稿定AI",
+          "url": "https://www.gaoding.com/",
+          "summary_en": "An all-in-one image creation suite for graphics, commerce visuals, and quick edits.",
+          "summary_zh": "一站式图像创作套件，适合设计图、电商图和快速修图。",
+          "related": [
+            {
+              "category": "design",
+              "bucket": "tools",
+              "name": "Gaoding AI Design"
+            }
+          ]
+        },
+        {
+          "name": "Xingliu AI",
+          "name_zh": "星流AI",
+          "url": "https://www.xingliu.art/",
+          "summary_en": "A multimodal design agent that spans image, video, 3D, and audio creation.",
+          "summary_zh": "支持图像、视频、3D 与音频创作的多模态设计 Agent。",
+          "group_en": "Cross-modal Image Creation",
+          "group_zh": "跨模态图像创作"
+        },
+        {
+          "name": "Ideogram",
+          "name_zh": "Ideogram",
+          "url": "https://ideogram.ai/",
+          "summary_en": "An image tool especially noted for strong text rendering inside generated visuals.",
+          "summary_zh": "擅长在生成图片中准确呈现文字的图像工具。"
+        },
+        {
+          "name": "Leonardo.Ai",
+          "name_zh": "Leonardo.Ai",
+          "url": "https://leonardo.ai/",
+          "summary_en": "A creator platform for controllable image generation, assets, and visual production.",
+          "summary_zh": "面向创作者的可控生图、素材和视觉生产平台。"
+        },
+        {
+          "name": "Krea",
+          "name_zh": "Krea",
+          "url": "https://www.krea.ai/",
+          "summary_en": "Fast visual ideation with real-time generation, enhancement, and creative controls.",
+          "summary_zh": "提供实时生成、增强和创意控制的快速视觉灵感工具。"
+        },
+        {
+          "name": "LiblibAI",
+          "name_zh": "LiblibAI",
+          "url": "https://www.liblib.art/",
+          "summary_en": "A Chinese platform for using leading image models and sharing model workflows.",
+          "summary_zh": "国内图像模型使用与模型工作流分享平台。"
+        },
+        {
+          "name": "Civitai",
+          "name_zh": "Civitai",
+          "url": "https://civitai.com/",
+          "summary_en": "A model-sharing community centered on image generation experimentation and remix culture.",
+          "summary_zh": "聚焦图像模型分享与再创作文化的社区平台。"
+        },
+        {
+          "name": "Clipdrop",
+          "name_zh": "Clipdrop",
+          "url": "https://clipdrop.co/",
+          "summary_en": "A practical toolkit for cleanup, relighting, background work, and image enhancement.",
+          "summary_zh": "覆盖清理、补光、背景处理和画质增强的实用图像工具箱。"
+        },
+        {
+          "name": "Cutout.Pro",
+          "name_zh": "Cutout.Pro",
+          "url": "https://www.cutout.pro/",
+          "summary_en": "A practical visual editing toolkit for background removal, cleanup, and enhancement.",
+          "summary_zh": "实用型视觉编辑工具箱，覆盖抠图、清理和画质增强。"
+        }
+      ]
+    },
+    "audio": {
+      "title_en": "Audio",
+      "title_zh": "音频",
+      "models": [
+        {
+          "name": "Whisper",
+          "name_zh": "Whisper",
+          "url": "https://openai.com/research/whisper",
+          "summary_en": "A widely adopted speech-recognition model for multilingual transcription.",
+          "summary_zh": "广泛使用的多语言语音识别与转写模型。",
+          "access_en": "Open weights; license varies by model.",
+          "access_zh": "模型权重可下载；不等同于开源，具体许可证因模型而异。"
+        },
+        {
+          "name": "Stable Audio 3.0 Small",
+          "name_zh": "Stable Audio 3.0 Small",
+          "url": "https://stability.ai/core-models",
+          "summary_en": "A music and audio generation model family from Stability AI.",
+          "summary_zh": "Stability AI 推出的音乐与音频生成模型系列。"
+        }
+      ],
+      "tools": [
+        {
+          "name": "ElevenLabs",
+          "name_zh": "ElevenLabs",
+          "url": "https://elevenlabs.io/",
+          "summary_en": "A voice platform for text-to-speech, dubbing, and expressive voice generation.",
+          "summary_zh": "语音平台，覆盖文本转语音、配音和富表现力语音生成。"
+        },
+        {
+          "name": "Suno",
+          "name_zh": "Suno",
+          "url": "https://suno.com/",
+          "summary_en": "A leading song-generation product for turning short prompts into full tracks.",
+          "summary_zh": "领先的歌曲生成产品，可将简短提示词转成完整曲目。"
+        },
+        {
+          "name": "Udio",
+          "name_zh": "Udio",
+          "url": "https://udio.com/",
+          "summary_en": "A music creation product focused on accessible songwriting and stylistic control.",
+          "summary_zh": "强调易用创作与风格控制的 AI 音乐产品。"
+        },
+        {
+          "name": "Adobe Podcast",
+          "name_zh": "Adobe Podcast",
+          "url": "https://podcast.adobe.com/",
+          "summary_en": "One-click voice cleanup and recording tools for clearer spoken audio.",
+          "summary_zh": "提供一键人声清理和录音能力，让口播音频更清晰。"
+        },
+        {
+          "name": "TME Studio",
+          "name_zh": "TME Studio",
+          "summary_en": "Tencent Music's AI-assisted music creation environment.",
+          "summary_zh": "腾讯音乐推出的 AI 辅助音乐创作环境。"
+        },
+        {
+          "name": "NetEase Tianyin",
+          "name_zh": "网易天音",
+          "url": "https://tianyin.music.163.com/",
+          "summary_en": "A one-stop AI music creation toolchain for melody, lyrics, and arrangement tasks.",
+          "summary_zh": "一站式 AI 音乐创作工具链，覆盖旋律、歌词和编曲任务。"
+        },
+        {
+          "name": "Descript",
+          "name_zh": "Descript",
+          "url": "https://www.descript.com/",
+          "summary_en": "Edit audio and video by editing the transcript, with AI voice and cleanup features.",
+          "summary_zh": "通过编辑文字稿来编辑音视频，并提供 AI 配音和清理能力。"
+        },
+        {
+          "name": "Speechify",
+          "name_zh": "Speechify",
+          "url": "https://speechify.com/",
+          "summary_en": "A reading and text-to-speech product spanning web, desktop, and mobile use cases.",
+          "summary_zh": "覆盖网页、桌面和移动端的朗读与文本转语音产品。"
+        },
+        {
+          "name": "Mureka AI",
+          "name_zh": "Mureka AI",
+          "url": "https://www.mureka.cn/",
+          "summary_en": "An AI music platform that mixes generation, editing, and rights-aware workflows.",
+          "summary_zh": "集成音乐生成、编辑与版权流程的 AI 音乐平台。"
+        },
+        {
+          "name": "AIVA",
+          "name_zh": "AIVA",
+          "url": "https://www.aiva.ai/",
+          "summary_en": "AI music composition platform for film, game, advertising, and other creative workflows.",
+          "summary_zh": "面向影视、游戏、广告等创作流程的 AI 音乐作曲平台。"
+        },
+        {
+          "name": "VocalRemover.org",
+          "name_zh": "VocalRemover.org",
+          "url": "https://vocalremover.org/",
+          "summary_en": "Web tool for separating vocals and accompaniment from songs.",
+          "summary_zh": "用于从歌曲中分离人声与伴奏的网页工具。"
+        }
+      ]
+    },
+    "video": {
+      "title_en": "Video",
+      "title_zh": "视频",
+      "models": [
+        {
+          "name": "Veo 3.1",
+          "name_zh": "Veo 3.1",
+          "url": "https://deepmind.google/models/model-cards/",
+          "summary_en": "Google video generation model line for cinematic motion and controllable scenes.",
+          "summary_zh": "Google 面向电影感运动效果与可控场景的视频生成模型系列。"
+        },
+        {
+          "name": "Seedance 2.5",
+          "name_zh": "Seedance 2.5",
+          "url": "https://seed.bytedance.com/en/seedance2_5",
+          "summary_en": "Audio-video joint generation model for 30-second storytelling, reference control, and precise editing.",
+          "summary_zh": "音视频联合生成模型，支持 30 秒故事、多素材参考控制与精准编辑。",
+          "related": [
+            {
+              "category": "video",
+              "bucket": "tools",
+              "name": "CapCut"
+            },
+            {
+              "category": "image",
+              "bucket": "tools",
+              "name": "Dreamina"
+            }
+          ]
+        },
+        {
+          "name": "HunyuanVideo-1.5",
+          "name_zh": "HunyuanVideo-1.5",
+          "url": "https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5",
+          "summary_en": "An open video generation model from Tencent for high-quality text-to-video work.",
+          "summary_zh": "腾讯推出的开放视频生成模型，面向高质量文生视频。",
+          "access_en": "Open weights; license varies by model.",
+          "access_zh": "模型权重可下载；不等同于开源，具体许可证因模型而异。"
+        },
+        {
+          "name": "Wan 2.7 T2V",
+          "name_zh": "Wan 2.7 T2V",
+          "url": "https://docs.modelstudio.console.alibabacloud.com/zh/model-studio/video-generate-edit-model",
+          "summary_en": "Audio sync · multi-shot storytelling.",
+          "summary_zh": "音画同步 · 多镜头叙事。",
+          "access_en": "Open weights; license varies by model.",
+          "access_zh": "模型权重可下载；不等同于开源，具体许可证因模型而异。"
+        },
+        {
+          "name": "Kling VIDEO 3.0",
+          "name_zh": "Kling VIDEO 3.0",
+          "url": "https://kling.ai/quickstart/klingai-video-3-model-user-guide",
+          "summary_en": "Native audio · storyboards · 15-second video.",
+          "summary_zh": "原生音画 · 分镜控制 · 15秒视频。",
+          "related": [
+            {
+              "category": "video",
+              "bucket": "tools",
+              "name": "Kling AI"
+            }
+          ]
+        },
+        {
+          "name": "Ray 3.2",
+          "name_zh": "Ray 3.2",
+          "url": "https://docs.agents.lumalabs.ai/guides/videos/migration/",
+          "summary_en": "Video generation · frame control · video editing.",
+          "summary_zh": "视频生成 · 帧控制 · 视频编辑。"
+        },
+        {
+          "name": "LTX-Video",
+          "name_zh": "LTX-Video",
+          "url": "https://github.com/Lightricks/LTX-Video",
+          "summary_en": "An open video generation model designed for fast, practical experimentation.",
+          "summary_zh": "面向快速实用实验的开放视频生成模型。",
+          "access_en": "Open weights; license varies by model.",
+          "access_zh": "模型权重可下载；不等同于开源，具体许可证因模型而异。"
+        },
+        {
+          "name": "Step-Video-TI2V",
+          "name_zh": "Step-Video-TI2V",
+          "summary_en": "An open video-generation model line featured in a public AI update.",
+          "summary_zh": "公开 AI 动态中重点提到的开源视频生成模型线。",
+          "access_en": "Open weights; license varies by model.",
+          "access_zh": "模型权重可下载；不等同于开源，具体许可证因模型而异。"
+        }
+      ],
+      "tools": [
+        {
+          "name": "CapCut",
+          "name_zh": "剪映 CapCut",
+          "url": "https://www.capcut.com/",
+          "summary_en": "Popular creator editing suite with AI captions, effects, and generation features.",
+          "summary_zh": "流行的创作者剪辑套件，集成 AI 字幕、特效和生成能力。"
+        },
+        {
+          "name": "Kling AI",
+          "name_zh": "可灵AI",
+          "url": "https://app.klingai.com/",
+          "summary_en": "A flagship video creation product that packages Kling's model family into creator-ready workflows.",
+          "summary_zh": "将可灵模型能力封装为创作者友好工作流的旗舰视频产品。"
+        },
+        {
+          "name": "Runway",
+          "name_zh": "Runway",
+          "url": "https://runwayml.com/",
+          "summary_en": "A creator platform for generative video, editing, and production workflows.",
+          "summary_zh": "面向创作者的生成视频、编辑与制作平台。"
+        },
+        {
+          "name": "HeyGen",
+          "name_zh": "HeyGen",
+          "url": "https://www.heygen.com/",
+          "summary_en": "Avatar-led video creation with translation, dubbing, and presenter workflows.",
+          "summary_zh": "覆盖数字人、翻译、配音和口播场景的视频创作平台。"
+        },
+        {
+          "name": "Synthesia",
+          "name_zh": "Synthesia",
+          "url": "https://www.synthesia.io/",
+          "summary_en": "Enterprise video creation with AI presenters and multilingual localization.",
+          "summary_zh": "使用 AI 主播和多语言本地化制作企业视频。"
+        },
+        {
+          "name": "Pika",
+          "name_zh": "Pika",
+          "url": "https://pika.art/",
+          "summary_en": "A video generation tool tuned for fast ideation and social-friendly motion outputs.",
+          "summary_zh": "适合快速灵感验证和社交平台传播的视频生成工具。"
+        },
+        {
+          "name": "OpusClip",
+          "name_zh": "OpusClip",
+          "url": "https://www.opus.pro/",
+          "summary_en": "Turns long videos into short, social-ready clips with AI editing.",
+          "summary_zh": "用 AI 把长视频自动剪成适合社交平台的短视频。"
+        },
+        {
+          "name": "Hedra AI",
+          "name_zh": "Hedra AI",
+          "url": "https://www.hedra.com/",
+          "summary_en": "A lip-sync and character-video tool for turning portraits and audio into motion.",
+          "summary_zh": "将头像与音频转成角色视频的口型同步工具。"
+        },
+        {
+          "name": "D-ID",
+          "name_zh": "D-ID",
+          "url": "https://www.d-id.com/",
+          "summary_en": "A talking-avatar product for presenter-style and face-driven video generation.",
+          "summary_zh": "面向口播与数字人场景的真人头像视频生成产品。"
+        },
+        {
+          "name": "Vidnoz",
+          "name_zh": "Vidnoz",
+          "url": "https://www.vidnoz.com/",
+          "summary_en": "An online video platform focused on accessible AI-driven production.",
+          "summary_zh": "强调易用性的在线视频生产平台，集成 AI 驱动能力。"
+        },
+        {
+          "name": "FaceFusion",
+          "name_zh": "FaceFusion",
+          "url": "https://github.com/facefusion/facefusion",
+          "summary_en": "An open source face-swapping tool used in creative and experimental video pipelines.",
+          "summary_zh": "开源换脸工具，常见于创意和实验性视频流程中。",
+          "notice_en": "Use only with consent and lawful source material; do not impersonate or deceive.",
+          "notice_zh": "请仅在获得同意且素材来源合法的情况下使用；不得冒充或欺骗他人。",
+          "access_en": "Open source.",
+          "access_zh": "开源软件。"
+        }
+      ]
+    },
+    "code": {
+      "title_en": "Code",
+      "title_zh": "代码",
+      "models": [
+        {
+          "name": "Qwen3-Coder-Next",
+          "name_zh": "Qwen3-Coder-Next",
+          "url": "https://qwen.ai/blog?id=qwen3-coder-next",
+          "summary_en": "A strong open coding model family spanning completion, reasoning, and code generation.",
+          "summary_zh": "覆盖补全、推理和代码生成的强大开放代码模型家族。",
+          "access_en": "Open weights; license varies by model.",
+          "access_zh": "模型权重可下载；不等同于开源，具体许可证因模型而异。"
+        },
+        {
+          "name": "Kimi K2.7 Code",
+          "name_zh": "Kimi K2.7 Code",
+          "url": "https://www.kimi.ai/ai-models/",
+          "summary_en": "Coding-focused Kimi agentic model for long-horizon software engineering.",
+          "summary_zh": "面向长程软件工程任务的 Kimi 编程智能体模型。"
+        },
+        {
+          "name": "Doubao-Seed-2.0-Code",
+          "name_zh": "Doubao-Seed-2.0-Code",
+          "url": "https://www.volcengine.com/docs/82379/2123228",
+          "summary_en": "A code-capable model family surfaced through Volcengine's model switching platform.",
+          "summary_zh": "通过火山方舟模型切换平台露出的代码能力模型家族。"
+        },
+        {
+          "name": "StarCoder2",
+          "name_zh": "StarCoder2",
+          "url": "https://huggingface.co/bigcode/starcoder2-15b",
+          "summary_en": "Open multilingual code models trained for practical developer workflows.",
+          "summary_zh": "面向实际开发工作流训练的开放多语言代码模型。",
+          "access_en": "Open weights; license varies by model.",
+          "access_zh": "模型权重可下载；不等同于开源，具体许可证因模型而异。"
+        },
+        {
+          "name": "Yi-Coder",
+          "name_zh": "Yi-Coder",
+          "url": "https://github.com/01-ai/Yi-Coder",
+          "summary_en": "An open coding model line from 01.AI aimed at efficient developer assistance.",
+          "summary_zh": "零一万物推出的开源代码模型线，定位高效开发辅助。",
+          "access_en": "Open weights; license varies by model.",
+          "access_zh": "模型权重可下载；不等同于开源，具体许可证因模型而异。"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Codex",
+          "name_zh": "Codex",
+          "url": "https://openai.com/codex/",
+          "summary_en": "OpenAI coding agent for delegating software tasks, refactors, tests, and pull requests.",
+          "summary_zh": "OpenAI 编程智能体，可委托完成软件任务、重构、测试与 Pull Request。",
+          "group_en": "Cloud & Repository Agents",
+          "group_zh": "云端与代码库智能体"
+        },
+        {
+          "name": "Claude Code",
+          "name_zh": "Claude Code",
+          "url": "https://www.anthropic.com/claude-code",
+          "summary_en": "Agentic coding tool that works directly in a terminal and software repository.",
+          "summary_zh": "直接在终端和代码仓库中工作的智能体编程工具。",
+          "related": [
+            {
+              "category": "text",
+              "bucket": "models",
+              "name": "Claude Opus 5.5"
+            }
+          ],
+          "group_en": "Terminal Agents",
+          "group_zh": "终端智能体"
+        },
+        {
+          "name": "Gemini CLI",
+          "name_zh": "Gemini CLI",
+          "url": "https://github.com/google-gemini/gemini-cli",
+          "summary_en": "Open-source terminal agent for coding, research, and tool-connected workflows.",
+          "summary_zh": "开源终端智能体，适合编程、研究与工具连接工作流。",
+          "group_en": "Terminal Agents",
+          "group_zh": "终端智能体",
+          "related": [
+            {
+              "category": "text",
+              "bucket": "models",
+              "name": "Gemini 3.8 Flash"
+            },
+            {
+              "category": "infra",
+              "bucket": "tools",
+              "name": "Gemini API"
+            }
+          ]
+        },
+        {
+          "name": "GitHub Copilot",
+          "name_zh": "GitHub Copilot",
+          "url": "https://github.com/features/copilot",
+          "summary_en": "A mainstream AI pair-programming assistant integrated into editors and workflows.",
+          "summary_zh": "主流 AI 结对编程助手，已深度集成进编辑器与开发流程。",
+          "group_en": "Editor Assistants",
+          "group_zh": "编辑器助手"
+        },
+        {
+          "name": "Cursor",
+          "name_zh": "Cursor",
+          "url": "https://cursor.com/",
+          "summary_en": "An AI-native code editor for fast editing, chat-based refactoring, and repo-level tasks.",
+          "summary_zh": "AI 原生代码编辑器，适合快速修改、对话式重构和仓库级任务。",
+          "group_en": "Agentic Editors",
+          "group_zh": "智能体编辑器"
+        },
+        {
+          "name": "Devin Desktop",
+          "name_zh": "Devin Desktop",
+          "url": "https://devin.ai/desktop",
+          "summary_en": "Desktop IDE and agent command center for planning, delegating, reviewing, and shipping code.",
+          "summary_zh": "用于规划、委派、审查和交付代码的桌面 IDE 与智能体指挥中心。",
+          "aliases_en": [
+            "Windsurf",
+            "Codeium"
+          ],
+          "aliases_zh": [
+            "Windsurf",
+            "Codeium（旧名称）"
+          ],
+          "group_en": "Agentic Editors",
+          "group_zh": "智能体编辑器"
+        },
+        {
+          "name": "Replit Agent",
+          "name_zh": "Replit Agent",
+          "url": "https://replit.com/ai",
+          "summary_en": "Prompt-to-app development in a browser-based coding environment.",
+          "summary_zh": "在浏览器开发环境中通过提示词快速构建应用。",
+          "group_en": "Cloud & Repository Agents",
+          "group_zh": "云端与代码库智能体"
+        },
+        {
+          "name": "Cline",
+          "name_zh": "Cline",
+          "url": "https://github.com/cline/cline",
+          "summary_en": "An open coding agent that can plan, edit, run commands, and inspect a codebase.",
+          "summary_zh": "可规划、编辑、运行命令和检查代码库的开源编程智能体。",
+          "access_en": "Open source.",
+          "access_zh": "开源软件。",
+          "group_en": "Agentic Editors",
+          "group_zh": "智能体编辑器"
+        },
+        {
+          "name": "Aider",
+          "name_zh": "Aider",
+          "url": "https://aider.chat/",
+          "summary_en": "Terminal-based pair programming that works directly with your local repository.",
+          "summary_zh": "直接在本地代码库中工作的终端式 AI 结对编程工具。",
+          "access_en": "Open source.",
+          "access_zh": "开源软件。",
+          "group_en": "Terminal Agents",
+          "group_zh": "终端智能体"
+        },
+        {
+          "name": "Continue",
+          "name_zh": "Continue",
+          "url": "https://www.continue.dev/",
+          "summary_en": "Open-source coding assistance that brings chat and autocomplete into your editor.",
+          "summary_zh": "将对话和自动补全带进编辑器的开源编程助手。",
+          "access_en": "Open source.",
+          "access_zh": "开源软件。",
+          "group_en": "Editor Assistants",
+          "group_zh": "编辑器助手"
+        },
+        {
+          "name": "Tabby",
+          "name_zh": "Tabby",
+          "url": "https://tabby.tabbyml.com/",
+          "summary_en": "An open source self-hostable coding assistant for local-first developer workflows.",
+          "summary_zh": "可自托管的开源 AI 编程助手，适合本地优先开发流程。",
+          "access_en": "Open source.",
+          "access_zh": "开源软件。",
+          "group_en": "Editor Assistants",
+          "group_zh": "编辑器助手"
+        },
+        {
+          "name": "Trae",
+          "name_zh": "TRAE",
+          "url": "https://www.trae.com.cn/",
+          "summary_en": "A ByteDance coding assistant and IDE experience focused on adaptive development help.",
+          "summary_zh": "字节系 AI 编程助手与 IDE 体验，强调自适应开发辅助。",
+          "group_en": "Agentic Editors",
+          "group_zh": "智能体编辑器"
+        },
+        {
+          "name": "Amazon Q Developer",
+          "name_zh": "Amazon Q Developer",
+          "url": "https://aws.amazon.com/q/developer/",
+          "summary_en": "AWS-aware coding and cloud operations assistant that includes CodeWhisperer capabilities.",
+          "summary_zh": "面向 AWS 编程与云运维的助手，已包含 CodeWhisperer 的能力。",
+          "aliases_en": [
+            "CodeWhisperer"
+          ],
+          "aliases_zh": [
+            "CodeWhisperer（已并入）"
+          ],
+          "group_en": "Editor Assistants",
+          "group_zh": "编辑器助手"
+        },
+        {
+          "name": "Tongyi Lingma",
+          "name_zh": "通义灵码",
+          "url": "https://tongyi.aliyun.com/lingma",
+          "summary_en": "Alibaba's coding assistant built on the Tongyi model family.",
+          "summary_zh": "基于通义模型家族打造的阿里 AI 编程助手。",
+          "group_en": "Editor Assistants",
+          "group_zh": "编辑器助手"
+        },
+        {
+          "name": "CodeFuse",
+          "name_zh": "CodeFuse",
+          "summary_en": "Ant Group's coding assistant positioned around practical enterprise engineering help.",
+          "summary_zh": "蚂蚁集团推出的 AI 编程助手，偏向企业级工程辅助。",
+          "group_en": "Editor Assistants",
+          "group_zh": "编辑器助手"
+        },
+        {
+          "name": "Wenxin Kuaima",
+          "name_zh": "文心快码",
+          "url": "https://comate.baidu.com/",
+          "summary_en": "Baidu's intelligent coding assistant for generation, optimization, and tests.",
+          "summary_zh": "百度推出的智能代码助手，覆盖生成、优化和测试能力。",
+          "group_en": "Editor Assistants",
+          "group_zh": "编辑器助手"
+        }
+      ]
+    },
+    "office": {
+      "title_en": "Office",
+      "title_zh": "办公",
+      "models": [],
+      "tools": [
+        {
+          "name": "ChatGPT Work",
+          "name_zh": "ChatGPT Work",
+          "url": "https://openai.com/chatgpt-work/",
+          "summary_en": "OpenAI’s long-horizon work agent for connected apps, files, research, documents, spreadsheets, and presentations.",
+          "summary_zh": "OpenAI 的长程工作智能体，可跨应用和文件完成研究、文档、表格与演示交付。",
+          "group_en": "Work Agents",
+          "group_zh": "工作智能体",
+          "related": [
+            {
+              "category": "text",
+              "bucket": "tools",
+              "name": "ChatGPT"
+            },
+            {
+              "category": "code",
+              "bucket": "tools",
+              "name": "Codex"
+            }
+          ]
+        },
+        {
+          "name": "Claude Cowork",
+          "name_zh": "Claude Cowork",
+          "url": "https://claude.com/resources/guides/claude-cowork-product-guide",
+          "summary_en": "Anthropic work agent that completes multi-step tasks across files, browsers, and connected tools. Cowork and chat are now integrated in Claude.",
+          "summary_zh": "Anthropic 的工作智能体，可跨文件、浏览器和连接工具完成多步骤任务；Cowork 与聊天现已整合在 Claude 中。",
+          "group_en": "Work Agents",
+          "group_zh": "工作智能体",
+          "related": [
+            {
+              "category": "text",
+              "bucket": "tools",
+              "name": "Claude"
+            },
+            {
+              "category": "code",
+              "bucket": "tools",
+              "name": "Claude Code"
+            }
+          ]
+        },
+        {
+          "name": "Microsoft Copilot Cowork",
+          "name_zh": "Microsoft Copilot Cowork",
+          "url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/cowork",
+          "summary_en": "Microsoft’s delegated work agent for tasks across Outlook, Teams, files, calendars, Word, Excel, and PowerPoint.",
+          "summary_zh": "微软的委托式工作智能体，可跨 Outlook、Teams、文件、日历和 Office 完成任务。",
+          "group_en": "Work Agents",
+          "group_zh": "工作智能体",
+          "related": [
+            {
+              "category": "office",
+              "bucket": "tools",
+              "name": "Microsoft 365 Copilot"
+            },
+            {
+              "category": "text",
+              "bucket": "tools",
+              "name": "Microsoft Copilot"
+            }
+          ]
+        },
+        {
+          "name": "WorkBuddy",
+          "name_zh": "WorkBuddy",
+          "url": "https://cloud.tencent.com/product/workbuddy",
+          "summary_en": "Tencent all-scenario AI workbench spanning office work, coding, and creative workflows.",
+          "summary_zh": "腾讯全场景 AI 办公工作台，覆盖日常办公、代码开发与设计创意。",
+          "group_en": "Work Agents",
+          "group_zh": "工作智能体"
+        },
+        {
+          "name": "Mistral Vibe Work",
+          "name_zh": "Mistral Vibe Work",
+          "url": "https://docs.mistral.ai/resources/release-notes",
+          "summary_en": "Mistral’s work environment for research, documents, spreadsheets, and agentic knowledge work.",
+          "summary_zh": "Mistral 的工作环境，面向研究、文档、表格与智能体式知识工作。",
+          "group_en": "Work Agents",
+          "group_zh": "工作智能体",
+          "related": [
+            {
+              "category": "text",
+              "bucket": "tools",
+              "name": "Mistral Le Chat"
+            }
+          ]
+        },
+        {
+          "name": "Microsoft 365 Copilot",
+          "name_zh": "Microsoft 365 Copilot",
+          "url": "https://www.microsoft.com/microsoft-365-copilot",
+          "summary_en": "Workplace assistant embedded in Word, Excel, PowerPoint, Outlook, and Teams.",
+          "summary_zh": "嵌入 Word、Excel、PowerPoint、Outlook 和 Teams 的办公助手。",
+          "group_en": "Office Suites",
+          "group_zh": "办公套件",
+          "related": [
+            {
+              "category": "text",
+              "bucket": "tools",
+              "name": "Microsoft Copilot"
+            }
+          ]
+        },
+        {
+          "name": "Gemini for Google Workspace",
+          "name_zh": "Gemini for Google Workspace",
+          "url": "https://workspace.google.com/solutions/ai/",
+          "summary_en": "AI assistance woven into Gmail, Docs, Sheets, Meet, and more.",
+          "summary_zh": "融入 Gmail、Docs、Sheets、Meet 等产品的 AI 办公助手。",
+          "group_en": "Office Suites",
+          "group_zh": "办公套件",
+          "related": [
+            {
+              "category": "text",
+              "bucket": "models",
+              "name": "Gemini 3.8 Flash"
+            }
+          ]
+        },
+        {
+          "name": "Notion AI",
+          "name_zh": "Notion AI",
+          "url": "https://www.notion.so/product/ai",
+          "summary_en": "Workspace-native writing, search, meeting, and knowledge assistance.",
+          "summary_zh": "融入工作空间的写作、搜索、会议和知识助手。",
+          "group_en": "Office Suites",
+          "group_zh": "办公套件"
+        },
+        {
+          "name": "Gamma",
+          "name_zh": "Gamma",
+          "url": "https://gamma.app/",
+          "summary_en": "A fast tool for generating presentations, docs, and lightweight web pages.",
+          "summary_zh": "快速生成演示文稿、文档和轻量网页的生产力工具。",
+          "group_en": "Presentation Tools",
+          "group_zh": "演示文稿工具"
+        },
+        {
+          "name": "Beautiful.ai",
+          "name_zh": "Beautiful.ai",
+          "url": "https://www.beautiful.ai/",
+          "summary_en": "A presentation platform built around design-aware slide automation.",
+          "summary_zh": "以内建设计感自动化能力见长的演示文稿平台。",
+          "group_en": "Presentation Tools",
+          "group_zh": "演示文稿工具"
+        },
+        {
+          "name": "iSlide",
+          "name_zh": "iSlide",
+          "url": "https://www.islide.cc/",
+          "summary_en": "A PPT production tool with AI generation, beautification, and large template libraries.",
+          "summary_zh": "集 AI 生成、美化和海量模板资源于一体的 PPT 制作工具。",
+          "group_en": "Presentation Tools",
+          "group_zh": "演示文稿工具"
+        },
+        {
+          "name": "AiPPT",
+          "name_zh": "AiPPT",
+          "url": "https://www.aippt.cn/",
+          "summary_en": "A one-click PPT maker built around faster slide drafting and template swapping.",
+          "summary_zh": "面向快速成稿和模板替换的一键式 PPT 生成工具。",
+          "group_en": "Presentation Tools",
+          "group_zh": "演示文稿工具"
+        },
+        {
+          "name": "PPTGO",
+          "name_zh": "博思AIPPT",
+          "url": "https://pptgo.cn/",
+          "summary_en": "An online AI presentation creator that supports topic-based and document-import workflows.",
+          "summary_zh": "支持主题生成与文档导入的在线 AI 演示文稿工具。",
+          "group_en": "Presentation Tools",
+          "group_zh": "演示文稿工具"
+        },
+        {
+          "name": "ChatPPT",
+          "name_zh": "ChatPPT",
+          "url": "https://chatppt.cn/",
+          "summary_en": "A conversational slide generator that simplifies outline-to-deck workflows.",
+          "summary_zh": "对话式 PPT 生成工具，简化从大纲到成稿的流程。",
+          "group_en": "Presentation Tools",
+          "group_zh": "演示文稿工具"
+        },
+        {
+          "name": "Decktopus",
+          "name_zh": "Decktopus AI",
+          "url": "https://www.decktopus.com/",
+          "summary_en": "An AI presentation tool aimed at sales, marketing, and client-facing teams.",
+          "summary_zh": "面向销售、市场和客户沟通团队的 AI 演示工具。",
+          "group_en": "Presentation Tools",
+          "group_zh": "演示文稿工具"
+        },
+        {
+          "name": "Xunfei Zhiwen",
+          "name_zh": "讯飞智文",
+          "url": "https://zhiwen.xfyun.cn/",
+          "summary_en": "An office creation tool for turning prompts into PPT and Word output.",
+          "summary_zh": "将提示词快速转成 PPT 和 Word 内容的办公创作工具。",
+          "group_en": "Presentation Tools",
+          "group_zh": "演示文稿工具"
+        },
+        {
+          "name": "BigPPT",
+          "name_zh": "笔格AIPPT",
+          "url": "https://bigppt.cn/",
+          "summary_en": "A PPT tool that adds an agent mode to guide structure and detail choices.",
+          "summary_zh": "带有 Agent 模式的 PPT 工具，可引导结构与细节生成。",
+          "group_en": "Presentation Tools",
+          "group_zh": "演示文稿工具"
+        },
+        {
+          "name": "Bige AI PPT",
+          "name_zh": "比格AI PPT",
+          "summary_en": "A high-efficiency PPT generator featured in a public office-tool roundup.",
+          "summary_zh": "公开办公工具整理中的高效 PPT 生成产品。",
+          "group_en": "Presentation Tools",
+          "group_zh": "演示文稿工具"
+        }
+      ]
+    },
+    "design": {
+      "title_en": "Design",
+      "title_zh": "设计",
+      "models": [],
+      "tools": [
+        {
+          "name": "Figma Make",
+          "name_zh": "Figma Make",
+          "url": "https://www.figma.com/ai/",
+          "summary_en": "Turn product ideas and prompts into editable interface prototypes.",
+          "summary_zh": "把产品想法和提示词变成可编辑的界面原型。"
+        },
+        {
+          "name": "Canva",
+          "name_zh": "Canva 可画",
+          "url": "https://www.canva.cn/",
+          "summary_en": "A global visual design platform that now layers AI generation into everyday design tasks.",
+          "summary_zh": "全球化视觉设计平台，已将 AI 能力融入日常设计任务。"
+        },
+        {
+          "name": "D.design AI",
+          "name_zh": "堆友AI",
+          "url": "https://d.design/",
+          "summary_en": "Alibaba Design's all-in-one AI creation platform for image, video, 3D assets, and visual design workflows.",
+          "summary_zh": "Alibaba Design 推出的一站式 AI 创作平台，覆盖图像、视频、3D 素材与视觉设计工作流。",
+          "aliases_en": [
+            "D.design",
+            "Duiyou AI"
+          ],
+          "aliases_zh": [
+            "D.design",
+            "堆友"
+          ]
+        },
+        {
+          "name": "Gaoding AI Design",
+          "name_zh": "稿定AI设计",
+          "url": "https://www.gaoding.com/",
+          "summary_en": "A design platform that blends AI drafting, materials, image edits, and commerce outputs.",
+          "summary_zh": "融合 AI 出图、素材、图片编辑和电商视觉的一站式设计平台。",
+          "related": [
+            {
+              "category": "image",
+              "bucket": "tools",
+              "name": "Gaoding AI"
+            }
+          ]
+        },
+        {
+          "name": "Meitu Design Studio",
+          "name_zh": "美图设计室",
+          "url": "https://www.designkit.com/",
+          "summary_en": "A collaborative online design tool for posters, commerce creatives, and quick visual editing.",
+          "summary_zh": "在线协作设计工具，适合海报、电商视觉与快速图形编辑。"
+        },
+        {
+          "name": "Framer AI",
+          "name_zh": "Framer AI",
+          "url": "https://www.framer.com/ai/",
+          "summary_en": "Generate polished website drafts from a short description.",
+          "summary_zh": "根据简短描述生成精致的网站初稿。"
+        },
+        {
+          "name": "Uizard",
+          "name_zh": "Uizard",
+          "url": "https://uizard.io/",
+          "summary_en": "Rapidly turns sketches and prompts into editable product designs.",
+          "summary_zh": "快速把草图和提示词变成可编辑的产品设计。"
+        },
+        {
+          "name": "Lovart",
+          "name_zh": "Lovart",
+          "url": "https://www.lovart.ai/",
+          "summary_en": "A design-focused AI agent for storyboards, branding, and visual creative direction.",
+          "summary_zh": "面向设计领域的 AI 智能体，可处理分镜、品牌和视觉创意方向。"
+        },
+        {
+          "name": "Napkin AI",
+          "name_zh": "Napkin AI",
+          "url": "https://napkin.ai/",
+          "summary_en": "A text-to-visual tool that helps turn ideas into diagrams and presentation graphics.",
+          "summary_zh": "将文本想法快速转成图示和演示视觉的工具。"
+        },
+        {
+          "name": "Pixso AI",
+          "name_zh": "Pixso AI",
+          "url": "https://pixso.cn/ai/",
+          "summary_en": "An interface-design workflow that combines AI generation with collaborative product design.",
+          "summary_zh": "将 AI 生成与协作式产品设计结合的界面设计工作流。"
+        },
+        {
+          "name": "Modao AI",
+          "name_zh": "墨刀AI",
+          "url": "https://modao.cc/",
+          "summary_en": "A prototyping tool that emphasizes fast AI-generated drafts and product exploration.",
+          "summary_zh": "强调 AI 快速原型生成与产品探索的原型设计工具。"
+        },
+        {
+          "name": "UXbot",
+          "name_zh": "UXbot",
+          "url": "https://www.uxbot.cn/",
+          "summary_en": "A UI and interactive prototyping product built around AI-generated high-fidelity designs.",
+          "summary_zh": "围绕 AI 高保真界面生成构建的 UI 与交互原型产品。"
+        },
+        {
+          "name": "XFUN AIGC",
+          "name_zh": "XFUN AIGC",
+          "url": "https://xfun.design/",
+          "summary_en": "A packaging-oriented AI design platform for production-ready creative outputs.",
+          "summary_zh": "面向包装设计的 AI 平台，偏生产可落地的创意输出。"
+        }
+      ]
+    },
+    "agent": {
+      "title_en": "Agent",
+      "title_zh": "智能体",
+      "models": [
+        {
+          "name": "Jev 1.13",
+          "name_zh": "Jev 1.13",
+          "url": "https://jev-ai.org/docs/models/",
+          "summary_en": "A decision model, not a chatbot: returns typed choices, scores, or probabilities for agent and system decisions.",
+          "summary_zh": "不是聊天机器人，而是决策模型：为智能体和系统决策返回结构化选项、评分或概率。",
+          "group_en": "Decision Models",
+          "group_zh": "决策模型"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Manus",
+          "name_zh": "Manus",
+          "url": "https://www.manus.im/",
+          "summary_en": "Cloud AI agent that turns a brief into research, software, slides, websites, and other finished work.",
+          "summary_zh": "云端 AI 智能体，将一句需求转化为研究、软件、幻灯片、网站等可交付成果。",
+          "group_en": "End-user Agent Products",
+          "group_zh": "终端智能体产品"
+        },
+        {
+          "name": "Muse",
+          "name_zh": "Muse",
+          "url": "https://meta.ai/",
+          "summary_en": "Meta personal AI agent for proactive everyday help, planning, and connected tasks.",
+          "summary_zh": "Meta 的个人 AI 智能体，面向主动协助、规划与跨应用任务。",
+          "group_en": "End-user Agent Products",
+          "group_zh": "终端智能体产品"
+        },
+        {
+          "name": "Coze",
+          "name_zh": "扣子",
+          "url": "https://www.coze.cn/",
+          "summary_en": "A low-barrier agent platform for workflows, plugins, memory, and distribution.",
+          "summary_zh": "低门槛智能体平台，支持工作流、插件、记忆和多端发布。",
+          "group_en": "Agent Builders & Platforms",
+          "group_zh": "智能体构建平台"
+        },
+        {
+          "name": "Dify",
+          "name_zh": "Dify",
+          "url": "https://dify.ai/",
+          "summary_en": "An open source LLMOps and application-building platform for agentic AI products.",
+          "summary_zh": "开源 LLMOps 与应用构建平台，适合打造智能体型 AI 产品。",
+          "group_en": "Agent Builders & Platforms",
+          "group_zh": "智能体构建平台",
+          "access_en": "Open source.",
+          "access_zh": "开源软件。"
+        },
+        {
+          "name": "Flowith Agent",
+          "name_zh": "Flowith Agent",
+          "url": "https://flowith.io/",
+          "summary_en": "An agent workspace aimed at deeper thinking, information handling, and creative productivity.",
+          "summary_zh": "强调深度思考、信息处理与创意生产力的智能体工作空间。",
+          "group_en": "End-user Agent Products",
+          "group_zh": "终端智能体产品"
+        },
+        {
+          "name": "Tencent Yuanqi",
+          "name_zh": "腾讯元器",
+          "url": "https://yuanqi.tencent.com/",
+          "summary_en": "Tencent's one-stop creation and distribution platform for AI agents.",
+          "summary_zh": "腾讯推出的一站式 AI 智能体创作与分发平台。",
+          "group_en": "Agent Builders & Platforms",
+          "group_zh": "智能体构建平台"
+        },
+        {
+          "name": "Wenxin Agent Platform",
+          "name_zh": "文心智能体平台",
+          "url": "https://agents.baidu.com/",
+          "summary_en": "Baidu's agent platform for scenario-specific assistants built on Wenxin models.",
+          "summary_zh": "百度基于文心模型打造的场景化智能体平台。",
+          "group_en": "Agent Builders & Platforms",
+          "group_zh": "智能体构建平台"
+        },
+        {
+          "name": "Xingchen Agent",
+          "name_zh": "星辰Agent",
+          "url": "https://agent.xfyun.cn/",
+          "summary_en": "An agent development platform for building production-grade assistants quickly.",
+          "summary_zh": "帮助开发者快速搭建生产级智能体的开发平台。",
+          "group_en": "Agent Builders & Platforms",
+          "group_zh": "智能体构建平台"
+        },
+        {
+          "name": "FastGPT",
+          "name_zh": "FastGPT",
+          "url": "https://fastgpt.cn/",
+          "summary_en": "An enterprise-focused AI agent builder for workflow efficiency and knowledge-based apps.",
+          "summary_zh": "面向企业流程效率和知识库应用的 AI Agent 搭建平台。",
+          "group_en": "Agent Builders & Platforms",
+          "group_zh": "智能体构建平台"
+        },
+        {
+          "name": "GPTBots.ai",
+          "name_zh": "GPTBots.ai",
+          "url": "https://www.gptbots.ai/",
+          "summary_en": "An enterprise agent development and management platform with multi-agent positioning.",
+          "summary_zh": "企业级智能体开发与管理平台，强调多智能体能力。",
+          "group_en": "Agent Builders & Platforms",
+          "group_zh": "智能体构建平台"
+        },
+        {
+          "name": "AiPy",
+          "name_zh": "爱派 AiPy",
+          "url": "https://www.aipyaipy.com/",
+          "summary_en": "A locally deployable AI agent product balancing usability, safety, and practical workflows.",
+          "summary_zh": "可本地部署的 AI 智能体产品，兼顾易用性、安全性与实用流程。",
+          "group_en": "End-user Agent Products",
+          "group_zh": "终端智能体产品"
+        },
+        {
+          "name": "Miaoda",
+          "name_zh": "秒哒",
+          "url": "https://www.miaoda.cn/",
+          "summary_en": "A no-code app-generation platform shaped around natural-language building and always-on agents.",
+          "summary_zh": "围绕自然语言搭建和常驻 Agent 设计的零代码应用生成平台。",
+          "group_en": "App Generation",
+          "group_zh": "应用生成"
+        },
+        {
+          "name": "n8n",
+          "name_zh": "n8n",
+          "url": "https://n8n.io/",
+          "summary_en": "Visual workflow automation with AI nodes and self-hosting options.",
+          "summary_zh": "支持 AI 节点和自托管的可视化工作流自动化平台。",
+          "group_en": "Workflow Automation",
+          "group_zh": "工作流自动化",
+          "access_en": "Open source.",
+          "access_zh": "开源软件。"
+        },
+        {
+          "name": "Zapier AI",
+          "name_zh": "Zapier AI",
+          "url": "https://zapier.com/ai",
+          "summary_en": "Connect AI actions to thousands of everyday business apps.",
+          "summary_zh": "把 AI 操作连接到大量日常业务应用。",
+          "group_en": "Workflow Automation",
+          "group_zh": "工作流自动化"
+        },
+        {
+          "name": "LangGraph",
+          "name_zh": "LangGraph",
+          "url": "https://www.langchain.com/langgraph",
+          "summary_en": "Build stateful, controllable agent workflows as graphs.",
+          "summary_zh": "以图结构构建有状态、可控的智能体工作流。",
+          "group_en": "Agent Frameworks",
+          "group_zh": "智能体框架",
+          "access_en": "Open source.",
+          "access_zh": "开源软件。"
+        },
+        {
+          "name": "CrewAI",
+          "name_zh": "CrewAI",
+          "url": "https://www.crewai.com/",
+          "summary_en": "Coordinate teams of specialized AI agents for multi-step work.",
+          "summary_zh": "编排多个专业 AI 智能体完成复杂任务。",
+          "group_en": "Agent Frameworks",
+          "group_zh": "智能体框架",
+          "access_en": "Open source.",
+          "access_zh": "开源软件。"
+        },
+        {
+          "name": "AutoGen",
+          "name_zh": "AutoGen",
+          "url": "https://microsoft.github.io/autogen/",
+          "summary_en": "Framework for multi-agent conversation and application orchestration.",
+          "summary_zh": "用于多智能体对话和应用编排的开发框架。",
+          "group_en": "Agent Frameworks",
+          "group_zh": "智能体框架",
+          "access_en": "Open source.",
+          "access_zh": "开源软件。"
+        }
+      ]
+    },
+    "infra": {
+      "title_en": "Infrastructure",
+      "title_zh": "基础设施",
+      "models": [],
+      "tools": [
+        {
+          "name": "OpenAI API",
+          "name_zh": "OpenAI API",
+          "url": "https://openai.com/api/",
+          "summary_en": "Hosted access to OpenAI model families for production integrations.",
+          "summary_zh": "面向生产集成的 OpenAI 模型托管访问接口。",
+          "group_en": "Inference & API Services",
+          "group_zh": "推理与 API 服务",
+          "related": [
+            {
+              "category": "text",
+              "bucket": "tools",
+              "name": "ChatGPT"
+            },
+            {
+              "category": "code",
+              "bucket": "tools",
+              "name": "Codex"
+            },
+            {
+              "category": "text",
+              "bucket": "models",
+              "name": "GPT-6 Astra"
+            }
+          ]
+        },
+        {
+          "name": "Gemini API",
+          "name_zh": "Gemini API",
+          "url": "https://ai.google.dev/",
+          "summary_en": "Google's API entry for multimodal Gemini models in application development.",
+          "summary_zh": "Google 面向应用开发开放的 Gemini 多模态模型接口。",
+          "group_en": "Inference & API Services",
+          "group_zh": "推理与 API 服务"
+        },
+        {
+          "name": "DeepSeek API",
+          "name_zh": "DeepSeek API",
+          "url": "https://platform.deepseek.com/",
+          "summary_en": "Developer-facing access to DeepSeek reasoning and coding model lines.",
+          "summary_zh": "面向开发者开放的 DeepSeek 推理与代码模型接口。",
+          "group_en": "Inference & API Services",
+          "group_zh": "推理与 API 服务"
+        },
+        {
+          "name": "Tencent Hunyuan API",
+          "name_zh": "腾讯混元 API",
+          "url": "https://cloud.tencent.com/product/hunyuan",
+          "summary_en": "Tencent's hosted model access for dialogue, generation, analysis, and business applications.",
+          "summary_zh": "腾讯提供的模型托管接口，覆盖对话、生成、分析与业务场景。",
+          "group_en": "Inference & API Services",
+          "group_zh": "推理与 API 服务"
+        },
+        {
+          "name": "Moonshot API",
+          "name_zh": "Moonshot API（Kimi）",
+          "url": "https://platform.moonshot.cn/",
+          "summary_en": "Moonshot hosted API for Kimi models and long-context applications.",
+          "summary_zh": "月之暗面提供的托管 API，用于 Kimi 模型和长上下文应用。",
+          "group_en": "Inference & API Services",
+          "group_zh": "推理与 API 服务"
+        },
+        {
+          "name": "MiniMax API",
+          "name_zh": "MiniMax API",
+          "url": "https://www.minimaxi.com/",
+          "summary_en": "An API matrix spanning text, speech, image, video, and music capabilities.",
+          "summary_zh": "覆盖文本、语音、图像、视频和音乐能力的模型 API 矩阵。",
+          "group_en": "Inference & API Services",
+          "group_zh": "推理与 API 服务"
+        },
+        {
+          "name": "OpenRouter",
+          "name_zh": "OpenRouter",
+          "url": "https://openrouter.ai/",
+          "summary_en": "One API surface for comparing and routing requests across many models.",
+          "summary_zh": "统一接入、比较和路由多种模型的 API 平台。",
+          "group_en": "Inference & API Services",
+          "group_zh": "推理与 API 服务"
+        },
+        {
+          "name": "Replicate",
+          "name_zh": "Replicate",
+          "url": "https://replicate.com/",
+          "summary_en": "Run and integrate a wide range of public AI models through APIs.",
+          "summary_zh": "通过 API 运行和集成大量公开 AI 模型。",
+          "group_en": "Inference & API Services",
+          "group_zh": "推理与 API 服务"
+        },
+        {
+          "name": "Together AI",
+          "name_zh": "Together AI",
+          "url": "https://www.together.ai/",
+          "summary_en": "Cloud infrastructure for running open models at production scale.",
+          "summary_zh": "面向生产规模运行开放模型的云基础设施。",
+          "group_en": "Inference & API Services",
+          "group_zh": "推理与 API 服务"
+        },
+        {
+          "name": "GroqCloud",
+          "name_zh": "GroqCloud",
+          "url": "https://console.groq.com/",
+          "summary_en": "Fast inference APIs powered by specialized AI hardware.",
+          "summary_zh": "由专用 AI 硬件驱动的高速推理 API。",
+          "group_en": "Inference & API Services",
+          "group_zh": "推理与 API 服务"
+        },
+        {
+          "name": "SiliconCloud",
+          "name_zh": "硅基流动 SiliconCloud",
+          "url": "https://siliconflow.cn/",
+          "summary_en": "A model cloud platform for unified access to hosted AI capabilities.",
+          "summary_zh": "统一接入托管 AI 能力的模型云平台。",
+          "group_en": "Inference & API Services",
+          "group_zh": "推理与 API 服务"
+        },
+        {
+          "name": "Exa AI",
+          "name_zh": "Exa AI",
+          "url": "https://exa.ai/",
+          "summary_en": "A search infrastructure tool with crawling and structured extraction APIs for AI apps.",
+          "summary_zh": "提供爬取与结构化抽取 API 的搜索基础设施工具，适合 AI 应用接入。",
+          "group_en": "Search APIs",
+          "group_zh": "搜索 API"
+        },
+        {
+          "name": "Hugging Face",
+          "name_zh": "Hugging Face",
+          "url": "https://huggingface.co/",
+          "summary_en": "The open hub for discovering, sharing, and running models, datasets, and demos.",
+          "summary_zh": "发现、分享和运行模型、数据集与演示应用的开放平台。",
+          "group_en": "Model Hubs",
+          "group_zh": "模型社区",
+          "access_en": "Open source.",
+          "access_zh": "开源软件。"
+        },
+        {
+          "name": "Amazon Bedrock",
+          "name_zh": "Amazon Bedrock",
+          "url": "https://aws.amazon.com/bedrock/",
+          "summary_en": "Managed access to foundation models with enterprise cloud controls.",
+          "summary_zh": "提供企业级云控制能力的基础模型托管服务。",
+          "group_en": "Cloud AI Platforms",
+          "group_zh": "云端 AI 平台"
+        },
+        {
+          "name": "Azure AI Foundry",
+          "name_zh": "Azure AI Foundry",
+          "url": "https://ai.azure.com/",
+          "summary_en": "Microsoft platform for building, evaluating, and deploying AI applications.",
+          "summary_zh": "微软用于构建、评估和部署 AI 应用的平台。",
+          "group_en": "Cloud AI Platforms",
+          "group_zh": "云端 AI 平台"
+        },
+        {
+          "name": "Bailian",
+          "name_zh": "阿里云百炼",
+          "url": "https://bailian.console.aliyun.com/",
+          "summary_en": "Alibaba Cloud's enterprise model service and application development platform.",
+          "summary_zh": "阿里云的企业级模型服务与应用开发平台。",
+          "group_en": "Cloud AI Platforms",
+          "group_zh": "云端 AI 平台"
+        },
+        {
+          "name": "Qianfan",
+          "name_zh": "千帆大模型平台",
+          "url": "https://qianfan.cloud.baidu.com/",
+          "summary_en": "Baidu's one-stop large-model platform centered on enterprise agent and app building.",
+          "summary_zh": "百度面向企业 Agent 与应用构建的一站式大模型平台。",
+          "group_en": "Cloud AI Platforms",
+          "group_zh": "云端 AI 平台"
+        },
+        {
+          "name": "Ollama",
+          "name_zh": "Ollama",
+          "url": "https://ollama.com/",
+          "summary_en": "A lightweight local framework for running and serving large models on personal hardware.",
+          "summary_zh": "在个人硬件上运行与服务大模型的轻量本地框架。",
+          "group_en": "Local Runtimes",
+          "group_zh": "本地运行时",
+          "access_en": "Open source.",
+          "access_zh": "开源软件。"
+        },
+        {
+          "name": "LM Studio",
+          "name_zh": "LM Studio",
+          "url": "https://lmstudio.ai/",
+          "summary_en": "Desktop app for discovering and running local language models.",
+          "summary_zh": "用于发现和运行本地语言模型的桌面应用。",
+          "group_en": "Local Runtimes",
+          "group_zh": "本地运行时"
+        },
+        {
+          "name": "PyTorch",
+          "name_zh": "PyTorch",
+          "url": "https://pytorch.org/",
+          "summary_en": "A foundational deep learning framework used across research and production AI systems.",
+          "summary_zh": "广泛用于研究与生产 AI 系统的基础深度学习框架。",
+          "group_en": "Training Frameworks",
+          "group_zh": "训练框架",
+          "access_en": "Open source.",
+          "access_zh": "开源软件。"
+        },
+        {
+          "name": "DeepSpeed",
+          "name_zh": "DeepSpeed",
+          "url": "https://www.deepspeed.ai/",
+          "summary_en": "A training and inference optimization stack for large deep learning workloads.",
+          "summary_zh": "面向大规模深度学习训练与推理的优化工具栈。",
+          "group_en": "Training Frameworks",
+          "group_zh": "训练框架",
+          "access_en": "Open source.",
+          "access_zh": "开源软件。"
+        },
+        {
+          "name": "Lightning",
+          "name_zh": "Lightning",
+          "url": "https://lightning.ai/",
+          "summary_en": "An end-to-end development environment spanning data, training, and deployment.",
+          "summary_zh": "覆盖数据、训练与部署的端到端 AI 开发环境。",
+          "group_en": "Training Frameworks",
+          "group_zh": "训练框架",
+          "access_en": "Open source.",
+          "access_zh": "开源软件。"
+        }
+      ]
+    }
+  }
+}
